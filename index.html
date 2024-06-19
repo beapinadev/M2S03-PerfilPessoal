@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Beatriz Pina">
+    <meta name="description" content="Página de estudos sobre html e css">
+    <meta name="keywords" content="projeto, html5">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+    <title>Beatriz Pina</title>
+</head>
+
+<body>
+    <nav class="naveg">
+        <ul class="navbar">
+            <li><a href="#inicio">Ínicio</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Portfólio</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+    <header class="header-content" id="inicio">
+        <img src="./img/sobre.jpg">
+        <div class="sobre">
+            <h3>Olá, me chamo</h3>
+            <h1>Beatriz Pina</h1>
+            <p>Uma aspirante a web design, que adora programação</p>
+
+            <div class="redes">
+                <ul class="redes-link">
+                    <li><a href="https://www.linkedin.com/in/beatriz-pina/"><i class='bx bxl-linkedin'></i></a></li>
+                    <li><a href="https://github.com/beapinadev"><i class='bx bxl-github'></i></a></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </header>
+    <main class="main-content">
+        <section class="skills" id="skills">
+            <div class="soft">
+                <h2>Soft Skills</h2>
+                <ul>
+                    <li>Trabalho em Equipe</li>
+                    <li>Lifelong Learning</li>
+                    <li>Adaptabilidade</li>
+                    <li>Comunicação</li>
+                </ul>
+            </div>
+            <div class="hard">
+                <h2>Hard Skills</h2>
+                <ul>
+                    <li>Javascript</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Figma</li>
+                </ul>
+            </div>
+        </section>
+        <section class="portfolio" id="portfolio">
+            <h2>Meu Portfólio</h2>
+            <div class="portfolio-content">
+                <a href="https://www.figma.com/design/PQBhZ3teDvdknw9LlVcg7n/Learn-Online?t=UMlEUx4TiMacyPZe-1"
+                    class="projeto">
+                    <img src="img\port01.png" alt="Projeto 1">
+                    <h3>Learn Online</h3>
+                </a>
+                <a href="https://www.figma.com/design/XytiZVItA5QI7BKFoOt2hT/Gym-App?t=UMlEUx4TiMacyPZe-1"
+                    class="projeto">
+                    <img src="img\port02.png" alt="Projeto 2">
+                    <h3>Gymm App</h3>
+                </a>
+                <a href="https://www.figma.com/design/soSifORiCBSFSdqWGoKO1Y/Food-Delivery-App?t=UMlEUx4TiMacyPZe-1"
+                    class="projeto">
+                    <img src="img\port03.png" alt="Projeto 3">
+                    <h3>Pedidos Online</h3>
+                </a>
+                <a href="https://www.figma.com/design/3RtWZllZx4I2VY7z4VuE1S/ANIME-WIKI?t=UMlEUx4TiMacyPZe-1"
+                    class="projeto">
+                    <img src="img\port04.png" alt="Projeto 4">
+                    <h3>Studio Ghibli Wiki</h3>
+                </a>
+            </div>
+        </section>
+        <section class="contato" id="contato">
+            <h2>Contato</h2>
+            <form>
+                <div class="coluna">
+                    <label for="nome">Nome:</label>
+                    <input type="text" placeholder="Seu nome" name="nome" id="nome">
+
+                    <label for="email">Email:</label>
+                    <input type="email" placeholder="Seu e-mail" name="email" id="email">
+
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea name="mensagem" placeholder="Digite sua mensagem aqui..." id="mensagem"></textarea>
+                </div>
+                <div class="btn">
+                    <input type="submit" class="btnSend" value="Enviar Mensagem">
+                    <input type="submit" class="btnClear" value="Limpar">
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright &copy; 1998</p>
+    </footer>
+</body>
+
+</html>

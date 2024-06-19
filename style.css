@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    font-variant: small-caps;
+}
+
+nav {
+    background-image: linear-gradient(to right, #3a0088, #590084, #700080, #83007b, #930077);
+    display: flex;
+    justify-content: flex-end;
+    height: 100px;
+}
+
+.navbar {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    margin: 15px;
+    gap: 20px;
+}
+
+.navbar li {
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: lightcyan;
+
+}
+
+.navbar a:hover {
+    color: #FFE5FF;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 10px auto;
+    padding: 20px;
+    border: 1px solid #83007b;
+    border-radius: 5px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.header-content img {
+    height: 200px;
+    max-width: 50%;
+    order: -1;
+    flex-shrink: 0;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 50px;
+    gap: 10px;
+    color: #83007b;
+}
+
+.redes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.redes-link {
+    display: flex;
+    flex-direction: row;
+}
+
+.redes-link a {
+    margin-top: 15px;
+    font-size: 30px;
+    padding: 5px;
+    color: #83007b;
+}
+
+.redes-link a:hover {
+    background: #83007b;
+    color: #FFE6FF;
+    box-shadow: 0 0 20px #83007b;
+    border-radius: 15%;
+}
+
+.redes li {
+    list-style-type: none;
+}
+
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    width: 80%;
+    margin: 10px auto;
+    padding: 20px;
+    border: 1px solid #83007b;
+    color: #83007b;
+
+}
+
+.soft,
+.hard {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+.soft li,
+.hard li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.soft h2,
+.hard h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.portfolio {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #83007b;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portfolio h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #83007b;
+}
+
+.portfolio-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.projeto {
+    width: 45%;
+    margin-bottom: 20px;
+    text-decoration: none;
+    box-shadow: 0 2px 5px rgba(131, 0, 123, 0.4);
+    transition: box-shadow 0.3s ease;
+}
+
+.projeto:hover {
+    box-shadow: 0 5px 10px rgba(131, 0, 123, 0.7);
+}
+
+.projeto img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.projeto h3 {
+    margin: 0;
+    text-align: center;
+    color: #83007b;
+}
+
+.contato {
+    border: 1px solid #83007b;
+    width: 80%;
+    margin: 10px auto;
+    border-radius: 5px;
+    display: flex;
+
+}
+
+.contato {
+    width: 80%;
+    margin: 10px auto;
+    padding: 20px;
+    border: 1px solid #83007b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contato h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #83007b;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #83007b;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #83007b;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnSend,
+.btnClear {
+    padding: 10px 20px;
+    background-color: #48003F;
+    color: #FFE6FF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btnSend:hover,
+.btnClear:hover {
+    box-shadow: 0 5px 10px rgba(72, 0, 63, 0.5);
+}
+
+.btnClear {
+    background-color: #48003F;
+}
+
+.btnClear:hover {
+    box-shadow: 0 5px 10px rgba(72, 0, 63, 0.5);
+}
+
+footer {
+    background-color: #83007b;
+    color: #FFE6FF;
+    padding: 20px 0;
+    text-align: center;
+}
